@@ -1,21 +1,21 @@
-# hyperswarm scale scenarios
+# dSwarm scale scenarios
 
 ## Install
 
 ```sh
-npm install -g @hyperswarm/scale-scenarios
+npm install -g @dswarm/scale-scenarios
 ```
 
 ## Setup
 
-Once installed, an executable name `hscale` will be available, 
+Once installed, an executable name `dscale` will be available, 
 this can be used to automatically spin up a machine and set
 it up with all necessary dependencies. 
 
 General use:
 
 ```sh
-hscale -c /path/to/config
+dscale -c /path/to/config
 ```
 
 The config file takes the format:
@@ -45,14 +45,14 @@ directly with `node`. You can also run `npm test` to run all scenarios.
 ## CLI
 
 ```sh
-hscale --help
+dscale --help
 ```
 
 ```
  
  hyperswarm scale-scenarios
 
-  hscale -c /path/to/config
+  dscale -c /path/to/config
 
   -c | --cfg | --config     Path to a config ini file, should contain at least:
                               AWSAccessKeyId

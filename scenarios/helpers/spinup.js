@@ -17,7 +17,7 @@ function spinup (size, { t, scenario, state, bs }) {
         tapenet.once('next-${i}', (state) => {
           const ready = ${fnStringify(ready)}
           const run = ${fnStringify(run)}
-          const dht = require('@hyperswarm/dht')
+          const dht = require('@dswarm/dht')
           const { bootstrap } = state
           const peer = dht({ bootstrap, ...${JSON.stringify(options)} })
           peer.ready(() => {

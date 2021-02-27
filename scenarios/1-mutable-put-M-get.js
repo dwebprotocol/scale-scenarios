@@ -22,8 +22,8 @@ tapenet(`1 mutable put peer, ${NODES - 2} mutable get peers, ${RTS} gets per pee
       containers: [putter],
       ready (t, peer, state, next) {
         const crypto = require('crypto')
-        const hypersign = require('@hyperswarm/hypersign')
-        const keypair = hypersign.keypair()
+        const dwebsign = require('@dswarm/dwebsign')
+        const keypair = dwebsign.keypair()
         const { publicKey: key } = keypair
         const value = crypto.randomBytes(32).toString('hex')
         next(null, { ...state, key, keypair, value })
