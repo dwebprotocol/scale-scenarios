@@ -1,9 +1,9 @@
 {
-  "name": "@hyperswarm/scale-scenarios",
+  "name": "@dswarm/scale-scenarios",
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "hscale": "./cmd.js"
+    "dscale": "./cmd.js"
   },
   "main": "index.js",
   "scripts": {

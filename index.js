@@ -14,7 +14,7 @@ async function * launcher (opts = {}) {
   opts.setup = {
     'scale-scenarios'() {
       return `
-        git clone https://github.com/scale-scenarios \
+        git clone https://github.com/dwebprotocol/scale-scenarios \
           && cd scale-scenarios/scenarios \
           && npm install
       `

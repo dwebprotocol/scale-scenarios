@@ -50,7 +50,7 @@ dscale --help
 
 ```
  
- hyperswarm scale-scenarios
+ dswarm scale-scenarios
 
   dscale -c /path/to/config
 
