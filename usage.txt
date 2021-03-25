@@ -1,5 +1,5 @@
  
- hyperswarm scale-scenarios
+ dswarm scale-scenarios
 
   hscale -c /path/to/config
 
